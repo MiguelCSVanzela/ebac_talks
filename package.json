@@ -2,9 +2,9 @@
   "name": "ebactalks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel source/index.html source/scripts/main.js source/styles/main.scss",
+    "build": "parcel build source/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
